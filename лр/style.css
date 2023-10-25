@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 16pt;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1530px;
+
+
+}
+
+header {
+    height: 70px;
+    padding-top: 10px;
+    background-color: #3B3937;
+    ;
+}
+
+.main-menu {
+    float: right;
+    padding-top: 10px;
+}
+
+.main-menu ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 24px;
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18pt;
+}
+.main-menu span {
+    color: #FFD6A8;
+}
+
+.logo {
+    float: left;
+    margin-left: 70px;
+}
+
+/* баннер */
+
+.banner {
+    background-image: url('img/banner.png');
+    width:100%;
+    height:861px;
+    padding-top: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.banner .two{
+    color:  #FFD6A8;
+
+}
+
+
+button {
+    background-color: #A9845C    ;
+    width: 247.68px;
+    height: 82.56px;
+    color: #fff;
+    font-size: 1.2em;
+    border: none;
+    font-weight: 200;
+}
+.ring {
+    width: 754px;
+    height: 754px;
+    margin: auto;
+    background-color:  #221B1582;
+    border-radius: 500px;
+    padding-top: 100px;
+}
+.ring p{
+    color: #ffffff;
+    font-size: 1.6em;
+   
+    margin-bottom: 20px;
+}
+.ring h1{
+    font-size: 60px;
+    color: #fff;
+}
+
+/* Витрина */
+
+.tovar h1{
+    margin-top: 30px;
+    font-size: 32pt;
+}
+.prod {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 250px);
+    grid-template-rows: repeat(2, 280px);
+    gap: 5px;
+}
+
+.elem {
+    width:230px;
+    height: 230px;
+    border: 1px solid black;
+}
+
+
+.info-block {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+    grid-template-rows: repeat(1, 269px);
+    gap: 20px;
+}
+
+.block {
+    border: 1px solid black;
+    width:360px;
+    height:241px;
+}
+.block p{
+    font-size: 14px;
+}
+.block span{
+    color: #B14101;
+    font-size: 12px;
+    margin-top: 30px;
+}
+/* ПОДВАЛ */
+footer {
+    margin-top: 50px;
+    height: 227px;
+    background-color: #3B3937;
+
+}
+
+.footer-block{
+    display: grid;
+    padding-top: 30px;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: repeat(1, 197px);
+    gap: 20px;
+}
